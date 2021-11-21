@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .green{
+            height: 400px;
+            width: 600px;
+            background-color: green;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .red{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .red img{
+            height: 120px;
+            width: 120px;
+        }
+        .red:hover img{
+            transform: rotate(360deg);
+            transition: all 10s ease 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="green">
+        <div class="red">
+            <img src="map.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
